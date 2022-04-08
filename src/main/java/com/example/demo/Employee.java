@@ -1,6 +1,10 @@
 package com.example.demo;
 
+import javax.persistence.*;
+
 // Creating an entity Employee
+@Entity
+@Table
 public class Employee {
 
     public Employee() {}
@@ -27,12 +31,11 @@ public class Employee {
 
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
     private String firstName;
-
     private String lastName;
-
     private String email;
 
     // Overriding the toString method
