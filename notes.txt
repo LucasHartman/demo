@@ -1,0 +1,7 @@
+
+
+-- Representational state transfer (REST)
+-   defines a set of constraints to be used for creating web serwvicex.
+-   Web services allow the requesting systems to access and manipulate textual
+    representations of Web resources
+-
