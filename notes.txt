@@ -1,4 +1,11 @@
+-- git
+cd C:\Users\ljhha\Documents\github\SpringBootAction\demo
+commit -m ""
+push --all
 
+-- MySql
+mysql.exe -uroot -p
+SHOW DATABASES;
 
 -- Representational state transfer (REST)
 -   defines a set of constraints to be used for creating web serwvicex.
