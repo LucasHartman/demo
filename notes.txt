@@ -1,12 +1,14 @@
 -- git
 cd C:\Users\ljhha\Documents\github\SpringBootAction\demo
 git add --all
-commit -m ""
-push --all
+git commit -m ""
+git push --all
 
 -- MySql
 mysql.exe -uroot -p
 SHOW DATABASES;
+USE root;
+SELECT * FROM root;
 
 -- run app
 http://localhost:8080/employees/
